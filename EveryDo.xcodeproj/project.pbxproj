@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C83FB38921F7A7E60067C6B3 /* CreateToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83FB38821F7A7E60067C6B3 /* CreateToDoViewController.m */; };
+		C83FB38C21F7BD1F0067C6B3 /* ToDoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C83FB38B21F7BD1F0067C6B3 /* ToDoManager.m */; };
 		C87E374321F79A5D00A854F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E374221F79A5D00A854F6 /* AppDelegate.m */; };
 		C87E374621F79A5D00A854F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E374521F79A5D00A854F6 /* ViewController.m */; };
 		C87E374921F79A5D00A854F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87E374721F79A5D00A854F6 /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		C87E375121F79A5E00A854F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E375021F79A5E00A854F6 /* main.m */; };
 		C87E375B21F79A5E00A854F6 /* EveryDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E375A21F79A5E00A854F6 /* EveryDoTests.m */; };
 		C87E376621F79A5E00A854F6 /* EveryDoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E376521F79A5E00A854F6 /* EveryDoUITests.m */; };
+		C87E377521F79AC100A854F6 /* ToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E377421F79AC100A854F6 /* ToDo.m */; };
+		C87E377821F79E0E00A854F6 /* ToDoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E377721F79E0E00A854F6 /* ToDoTableViewCell.m */; };
+		C87E377B21F7A31300A854F6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E377A21F7A31300A854F6 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C83FB38721F7A7E60067C6B3 /* CreateToDoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateToDoViewController.h; sourceTree = "<group>"; };
+		C83FB38821F7A7E60067C6B3 /* CreateToDoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateToDoViewController.m; sourceTree = "<group>"; };
+		C83FB38A21F7BD1F0067C6B3 /* ToDoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoManager.h; sourceTree = "<group>"; };
+		C83FB38B21F7BD1F0067C6B3 /* ToDoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoManager.m; sourceTree = "<group>"; };
 		C87E373E21F79A5D00A854F6 /* EveryDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87E374121F79A5D00A854F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C87E374221F79A5D00A854F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,12 @@
 		C87E376121F79A5E00A854F6 /* EveryDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EveryDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87E376521F79A5E00A854F6 /* EveryDoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EveryDoUITests.m; sourceTree = "<group>"; };
 		C87E376721F79A5E00A854F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87E377321F79AC100A854F6 /* ToDo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDo.h; sourceTree = "<group>"; };
+		C87E377421F79AC100A854F6 /* ToDo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDo.m; sourceTree = "<group>"; };
+		C87E377621F79E0E00A854F6 /* ToDoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoTableViewCell.h; sourceTree = "<group>"; };
+		C87E377721F79E0E00A854F6 /* ToDoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewCell.m; sourceTree = "<group>"; };
+		C87E377921F7A31300A854F6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C87E377A21F7A31300A854F6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				C87E374221F79A5D00A854F6 /* AppDelegate.m */,
 				C87E374421F79A5D00A854F6 /* ViewController.h */,
 				C87E374521F79A5D00A854F6 /* ViewController.m */,
+				C87E377921F7A31300A854F6 /* DetailViewController.h */,
+				C87E377A21F7A31300A854F6 /* DetailViewController.m */,
+				C83FB38721F7A7E60067C6B3 /* CreateToDoViewController.h */,
+				C83FB38821F7A7E60067C6B3 /* CreateToDoViewController.m */,
+				C87E377621F79E0E00A854F6 /* ToDoTableViewCell.h */,
+				C87E377721F79E0E00A854F6 /* ToDoTableViewCell.m */,
+				C87E377321F79AC100A854F6 /* ToDo.h */,
+				C87E377421F79AC100A854F6 /* ToDo.m */,
+				C83FB38A21F7BD1F0067C6B3 /* ToDoManager.h */,
+				C83FB38B21F7BD1F0067C6B3 /* ToDoManager.m */,
 				C87E374721F79A5D00A854F6 /* Main.storyboard */,
 				C87E374A21F79A5E00A854F6 /* Assets.xcassets */,
 				C87E374C21F79A5E00A854F6 /* LaunchScreen.storyboard */,
@@ -262,9 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87E377821F79E0E00A854F6 /* ToDoTableViewCell.m in Sources */,
+				C83FB38C21F7BD1F0067C6B3 /* ToDoManager.m in Sources */,
 				C87E374621F79A5D00A854F6 /* ViewController.m in Sources */,
 				C87E375121F79A5E00A854F6 /* main.m in Sources */,
 				C87E374321F79A5D00A854F6 /* AppDelegate.m in Sources */,
+				C87E377521F79AC100A854F6 /* ToDo.m in Sources */,
+				C87E377B21F7A31300A854F6 /* DetailViewController.m in Sources */,
+				C83FB38921F7A7E60067C6B3 /* CreateToDoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

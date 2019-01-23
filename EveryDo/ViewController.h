@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ToDo;
 
 @interface ViewController : UIViewController
 
